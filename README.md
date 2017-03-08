@@ -27,9 +27,9 @@ Drag and drop the **application/libraries/Format.php** and **application/librari
 ## Handling Requests
 
 When your controller extends from `REST_Controller`, the method names will be appended with the HTTP method used to access the request. If you're  making an HTTP `GET` call to `/books`, for instance, it would call a `Books#index_get()` method.
-```php
+
 This allows you to implement a RESTful interface easily:
-```
+
 ```php
 use Restserver\Libraries\REST_Controller;
 
